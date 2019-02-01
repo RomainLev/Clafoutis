@@ -44,6 +44,11 @@ header nav ul li a:active {
   color: #F00;
   background: #000;
 }
+p::first-letter {
+  font-size: 3em;
+  color: red;
+  
+}
 p#un{
   background: #cedaef;
   width: 500px;

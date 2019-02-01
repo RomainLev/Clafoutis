@@ -1,0 +1,15 @@
+table, td, th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+table tr th {
+  background: black;
+  color: white;
+}
+
+table tfoot tr td{
+  background: red;
+  color: yellow;
+  vertical-align: middle;
+}
