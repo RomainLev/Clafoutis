@@ -1,0 +1,14 @@
+@import url("reset.css");
+
+p#un{
+  background-color: red;
+  width: 500px;
+}
+p#deux{
+  background-color: blue;
+  width: 250px;
+}
+p#trois{
+  background-color: green;
+  width: 125px;
+}
