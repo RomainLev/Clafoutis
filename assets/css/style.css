@@ -1,14 +1,61 @@
 @import url("reset.css");
 
+body{
+  font-size: 16px;
+  font-family: Arial, Verdana, sans-serif;
+  color: #000;
+}
+main{
+  background: yellow;
+  margin: 0 0 0 50px;
+  position: relative;
+}
+a {
+  display: inline-block;
+	text-decoration: none;
+}
+header nav ul li{
+  display: inline-block;
+  width: 20%;
+}
+header nav ul li a{
+  display: block;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+header nav ul li a:link {
+  color: #000;
+  background: #FFF;
+}
+header nav ul li a:visited {
+  color: #000;
+  background: #FFF;
+}
+header nav ul li a:link:hover {
+  color: #FFF;
+  background: #000;
+}
+header nav ul li a:visited:hover {
+  color: red;
+  background: green;
+}
+header nav ul li a:active {
+  color: #F00;
+  background: #000;
+}
 p#un{
-  background-color: red;
+  background: #cedaef;
   width: 500px;
 }
 p#deux{
-  background-color: blue;
+  background: #63e8be;
   width: 250px;
+  position: absolute;
+  top: 200px;
+  left: 15px;
 }
 p#trois{
-  background-color: green;
+  background: #e8e85f;
   width: 125px;
 }
